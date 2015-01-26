@@ -15,9 +15,12 @@ h1 {
   margin-top: 1.2em;
 }
 
+.icon {
+  @include button($primary-icon, $primary-icon-hover, #fff);   
+}
 
 .icon-sn-controller {
-  @include button($icon, $icon-sn-controller, #fff);   
+  @include button($icon, $icon-sn-controller-hover, #fff);   
 }
 
 .icon-ok {
