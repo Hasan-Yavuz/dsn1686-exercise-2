@@ -23,9 +23,6 @@
 
   &:hover{
     background-color: $hover-color;
-    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
-    transform: translateX(-50%) translateY(-50%) rotate(-45deg);
-    transition: all 0.3s;
     color: $text-color-hover;
   }
 }
