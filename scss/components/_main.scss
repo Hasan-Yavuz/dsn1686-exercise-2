@@ -19,30 +19,6 @@ h1 {
   @include button($primary-icon, $primary-icon-hover, #fff);   
 }
 
-.icon-sn-controller {
-  @include button($icon, $icon-sn-controller-hover, #fff);   
-}
-
-.icon-ok {
-  @include button($icon, $icon-ok, #fff);   
-}
-
-.icon-plus {
-  @include button($icon, $icon-plus, #fff);   
-}
-
-.icon-minus {
-  @include button($icon, $icon-minus, #fff);   
-}
-
-.icon-comment {
-  @include button($icon, $icon-comment, #fff);   
-}
-
-.icon-trash {
-  @include button($icon, $icon-trash, #fff);   
-}
-
 .border {
   border: 1px solid #ccc;
   // you can nest elements or selectors to target them more specifically.
