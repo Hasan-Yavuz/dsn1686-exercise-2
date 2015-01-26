@@ -5,7 +5,6 @@
   color: $text-color;
   font-size: 1.6em;
   padding: 25px 80px;
-  border-radius: 3px;
   margin-left: 10%;
   margin-top: 2em;
   cursor: pointer;
@@ -27,5 +26,6 @@
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
     transform: translateX(-50%) translateY(-50%) rotate(-45deg);
     transition: all 0.3s;
+    color: $text-color-hover;
   }
 }
