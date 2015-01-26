@@ -3,8 +3,40 @@
 SCSS uses the '$' symbol to declar variables. */
 
 // Colors
-$primary: #3498db;
-$primary-dark: #2980b9;
+$icon: ;
+$icon-sn-controller:   
+    
+  position: relative;
+  font-family: helvetica;
+  font-size: 1.6em;
+  color: #fff;
+  background: none;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  outline: none;
+  position: relative;
+  border: 3px solid #fff;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+
+$icon-ok: #2980b9;
+
+$icon-plus: #2980b9;
+
+$icon-minus: #2980b9;
+
+$icon-comment: #2980b9;
+
+$icon-trash: #2980b9;
 
 $secondary: #999;
 $secondary-dark: #666;

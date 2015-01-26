@@ -5,12 +5,28 @@ body{
   font-family: $helvetica;
 }
 
-.primary-btn {
-  @include button($primary, $primary-dark, #fff);   
+.icon-sn-controller {
+  @include button($icon, $icon-sn-controller, #fff);   
 }
 
-.secondary-btn {
-  @include button($secondary, $secondary-dark, #fff);   
+.icon-ok {
+  @include button($icon, $icon-ok, #fff);   
+}
+
+.icon-plus {
+  @include button($icon, $icon-plus, #fff);   
+}
+
+.icon-minus {
+  @include button($icon, $icon-minus, #fff);   
+}
+
+.icon-comment {
+  @include button($icon, $icon-comment, #fff);   
+}
+
+.icon-trash {
+  @include button($icon, $icon-trash, #fff);   
 }
 
 .border {
